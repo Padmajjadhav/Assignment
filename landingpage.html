@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TransX — UrbanXplore</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lpcss.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#" class="brand">
+        <div class="logo">UX</div>
+        <div>
+          <div style="font-weight:700">UrbanXplore</div>
+          <div style="font-size:0.82rem; color:var(--muted); margin-top:2px;">TransX • Rider & Driver</div>
+        </div>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#home">About Us</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#apps">Apps</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div style="display:flex; gap:10px; align-items:center;">
+        <a class="btn-outline" href="#get-started">Login</a>
+        <a class="cta" href="#signup">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home">
+      <div>
+        <div class="kicker">Smart • Swift • Secure</div>
+        <h1>About Us — TransX: Smart urban mobility platform for drivers & riders</h1>
+        <p>
+          TransX is our work-in-progress ride-hailing platform — a modern alternative to Ola, Uber, and Rapido.
+          We're building a complete ecosystem with user and driver apps, real-time tracking, and secure payments.
+          The goal is to create a scalable, reliable solution for the community from <strong>UrbanXploreStudio</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#features" class="cta">View features</a>
+        </div>
+
+        <div class="features" style="margin-top:22px;">
+          <div class="card">
+            <h4>Real-time tracking</h4>
+            <p>GPS-based tracking for drivers and live ETA for riders.</p>
+          </div>
+          <div class="card">
+            <h4>Payments</h4>
+            <p>Integrate payment gateways & automatic receipts for trips.</p>
+          </div>
+          <div class="card">
+            <h4>Subscription</h4>
+            <p>Flexible plans for drivers and riders with added perks and smoother rides.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:20px;">
+          <div class="steps">
+            <div class="step">
+              <h5>1. Ride request</h5>
+              <p>Rider requests a ride, nearby drivers receive the request instantly.</p>
+            </div>
+            <div class="step">
+              <h5>2. Accept & navigate</h5>
+              <p>Driver accepts and navigates using in-app routing.</p>
+            </div>
+            <div class="step">
+              <h5>3. Payment & rating</h5>
+              <p>Automatic fare calculation, in-app payment and rating system.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="mock-phone" aria-hidden="true">
+        <div class="phone-screen">
+          <div style="text-align:center; padding:8px;">
+            <div style="font-size:1.25rem; font-weight:700; color:white;">TransX</div>
+            <div style="font-size:0.92rem; color:var(--muted); margin-top:8px;">App preview</div>
+            <div style="margin-top:16px; font-size:0.9rem;">(screenshot placeholder)</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="features">
+      <h2 style="margin:28px 0 8px 0">Features</h2>
+      <p style="margin:0 0 16px 0; color:var(--muted);">TransX — your urban travel companion. Book rides instantly, reach faster, and save more — all with safety and comfort guaranteed.</p>
+
+      <div class="features">
+        <div class="card">
+          <h4>In-app Communication</h4>
+          <p>Drivers and riders can chat or call directly within the app for smooth coordination and safety.</p>
+        </div>
+        <div class="card">
+          <h4>Location Sharing</h4>
+          <p>Real-time sharing helps riders stay informed and lets loved ones track trips securely.</p>
+        </div>
+        <div class="card">
+          <h4>SOS & Safety Alerts</h4>
+          <p>Built-in emergency button connects users to instant help and shares location with contacts or authorities.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:12px;" class="apps" id="apps">
+        <div class="screenshot">
+          <div style="flex:1;">
+            <div class="badge">Mobile</div>
+            <div class="app-meta">
+              <h4>Driver App</h4>
+              <p style="color:var(--muted)">Manage rides easily — accept or decline requests, navigate routes, track earnings, and upload documents seamlessly.</p>
+            </div>
+          </div>
+          <div style="width:110px; height:180px; background:linear-gradient(180deg,#021123,#041531); border-radius:10px; display:flex; align-items:center; justify-content:center;">
+            <span style="color:var(--muted);">Preview</span>
+          </div>
+        </div>
+
+        <div class="screenshot">
+          <div style="flex:1;">
+            <div class="badge">Mobile</div>
+            <div class="app-meta">
+              <h4>Rider App</h4>
+              <p style="color:var(--muted)">Book rides in seconds with fare estimates, real-time driver tracking, and built-in safety options for peace of mind.</p>
+            </div>
+          </div>
+          <div style="width:110px; height:180px; background:linear-gradient(180deg,#021123,#041531); border-radius:10px; display:flex; align-items:center; justify-content:center;">
+            <span style="color:var(--muted);">Preview</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:28px;">
+      <h2>Team & contact</h2>
+      <p style="color:var(--muted)">Invite your cofounders to the UrbanXplore organization on GitHub and create repos for each component (frontend, backend, mobile, admin).</p>
+
+      <div style="display:flex; gap:18px; flex-wrap:wrap; margin-top:14px;">
+        <div style="flex:1; min-width:220px; background:var(--card); padding:16px; border-radius:12px; border:1px solid rgba(255,255,255,0.025);">
+          <h4 style="margin:0 0 6px 0">Contact Us</h4>
+          <p style="color:var(--muted); margin:6px 0 0 0;">
+            Email: <a href="mailto:support@urbanxplore.com">support@urbanxplore.com</a> &nbsp;|&nbsp; 
+            Phone: <a href="tel:+91076360507">+91 9076360507</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="foot-grid">
+          <div>
+            <div style="font-weight:700">UrbanXplore</div>
+            <div style="color:var(--muted); font-size:0.95rem; margin-top:6px;">TransX — Rider & Driver • © <span id="year"></span></div>
+          </div>
+
+          <div style="text-align:right;">
+            <div class="socials">
+              <div class="badge">Docs</div>
+              <div class="badge">GitHub</div>
+              <div class="badge">Contact</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
